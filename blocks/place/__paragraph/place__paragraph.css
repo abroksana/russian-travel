@@ -7,13 +7,8 @@
   box-sizing: border-box;
 }
 
-/*.place__paragraph:last-child {
-  /*margin: 0;
-}*/
-
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__paragraph {
-
     margin-top: 8px;
   }
   .place__paragraph:last-child {
@@ -21,11 +16,10 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
-    /*margin: 0 auto 88px;*/
   }
   .place__paragraph:last-child {
     margin: 8px 0 0 0;
@@ -37,7 +31,6 @@
     margin: 0 16px 25px;
     font-size: 16px;
     line-height: 26px;
-
   }
   .place__paragraph:last-child {
     margin-bottom: 0;
