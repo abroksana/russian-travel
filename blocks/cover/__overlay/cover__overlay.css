@@ -10,6 +10,7 @@
   text-decoration: none;
   min-height: 740px;
   object-fit: fill;
+  justify-content: center;
 }
 
 .cover__overlay::before {
@@ -26,36 +27,32 @@
   opacity: .8;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) {
   .cover__overlay  {
-    min-height: 640px;
+    justify-content: normal;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) and (max-width: 1279px) {
   .cover__overlay {
     min-height: 640px;
-    justify-content: center;
   }
 }
 
 @media screen and (max-width:768px) {
   .cover__overlay {
     min-height: 480px;
-    justify-content: center;
   }
 }
 
 @media screen and (max-width:544px) {
   .cover__overlay {
     min-height: 340px;
-    justify-content: center;
   }
 }
 
 @media screen and (max-width:320px) {
   .cover__overlay {
     min-height: 200px;
-    justify-content: center;
   }
 }
